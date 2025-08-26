@@ -5,6 +5,7 @@ import 'package:device_preview/device_preview.dart';
 import 'app_lock_screen.dart';
 import 'settings_screen.dart';
 // Pandubhai
+// Kalesha vali
 void main() {
   runApp(DevicePreview(enabled: true, builder: (context) => const MyApp()));
 }
