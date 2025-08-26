@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class KycVerificationScreen extends StatefulWidget {
+  const KycVerificationScreen({super.key});
+
   @override
   _KycVerificationScreenState createState() => _KycVerificationScreenState();
 }

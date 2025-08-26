@@ -98,7 +98,7 @@ class FAQScreen extends StatelessWidget {
             backgroundColor: Colors.deepPurple.shade100.withOpacity(0.1),
             title: Text(
               faqs[index]["question"]!,
-              style: const TextStyle(color: const Color(0xFFB8D8C1)),
+              style: const TextStyle(color: Color(0xFFB8D8C1)),
             ),
             children: [
               Padding(

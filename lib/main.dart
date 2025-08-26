@@ -4,7 +4,7 @@ import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:device_preview/device_preview.dart';
 import 'app_lock_screen.dart';
 import 'settings_screen.dart';
-
+// Pandubhai
 void main() {
   runApp(DevicePreview(enabled: true, builder: (context) => const MyApp()));
 }
@@ -87,7 +87,7 @@ class HomeScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
             IconButton(
-              icon: const Icon(Icons.settings, color: const Color(0xFFB8D8C1)),
+              icon: const Icon(Icons.settings, color: Color(0xFFB8D8C1)),
               onPressed: () {
                 Navigator.push(
                   context,

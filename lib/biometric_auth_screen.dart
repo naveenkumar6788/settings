@@ -77,7 +77,7 @@ class _BiometricAuthScreenState extends State<BiometricAuthScreen> {
           ListTile(
             leading: const Icon(
               Icons.fingerprint,
-              color: const Color(0xFFB8D8C1),
+              color: Color(0xFFB8D8C1),
             ),
             title: const Text(
               'Biometric Hardware Available',
@@ -91,7 +91,7 @@ class _BiometricAuthScreenState extends State<BiometricAuthScreen> {
           ListTile(
             leading: const Icon(
               Icons.verified_user,
-              color: const Color(0xFFB8D8C1),
+              color: Color(0xFFB8D8C1),
             ),
             title: const Text(
               'Fingerprints Enrolled',

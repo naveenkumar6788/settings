@@ -92,7 +92,7 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
       ),
       border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
       enabledBorder: OutlineInputBorder(
-        borderSide: const BorderSide(color: const Color(0xFFB8D8C1)),
+        borderSide: const BorderSide(color: Color(0xFFB8D8C1)),
         borderRadius: BorderRadius.circular(12),
       ),
     );

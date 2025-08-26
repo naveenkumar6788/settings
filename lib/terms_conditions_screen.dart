@@ -19,7 +19,7 @@ class TermsAndConditionsScreen extends StatelessWidget {
             Text(
               "1. Introduction",
               style: TextStyle(
-                color: const Color(0xFFB8D8C1),
+                color: Color(0xFFB8D8C1),
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
@@ -34,7 +34,7 @@ class TermsAndConditionsScreen extends StatelessWidget {
             Text(
               "2. User Responsibilities",
               style: TextStyle(
-                color: const Color(0xFFB8D8C1),
+                color: Color(0xFFB8D8C1),
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
@@ -49,7 +49,7 @@ class TermsAndConditionsScreen extends StatelessWidget {
             Text(
               "3. Privacy",
               style: TextStyle(
-                color: const Color(0xFFB8D8C1),
+                color: Color(0xFFB8D8C1),
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
@@ -64,7 +64,7 @@ class TermsAndConditionsScreen extends StatelessWidget {
             Text(
               "4. Intellectual Property",
               style: TextStyle(
-                color: const Color(0xFFB8D8C1),
+                color: Color(0xFFB8D8C1),
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
@@ -79,7 +79,7 @@ class TermsAndConditionsScreen extends StatelessWidget {
             Text(
               "5. Limitation of Liability",
               style: TextStyle(
-                color: const Color(0xFFB8D8C1),
+                color: Color(0xFFB8D8C1),
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
@@ -94,7 +94,7 @@ class TermsAndConditionsScreen extends StatelessWidget {
             Text(
               "6. Updates and Modifications",
               style: TextStyle(
-                color: const Color(0xFFB8D8C1),
+                color: Color(0xFFB8D8C1),
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),

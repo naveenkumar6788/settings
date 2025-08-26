@@ -74,7 +74,7 @@ class _AppLockScreenState extends State<AppLockScreen> {
               'Incorrect Password',
               style: TextStyle(color: Colors.black),
             ),
-            backgroundColor: const Color(0xFFB8D8C1),
+            backgroundColor: Color(0xFFB8D8C1),
           ),
         );
       }
@@ -114,7 +114,7 @@ class _AppLockScreenState extends State<AppLockScreen> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Icon(Icons.lock, size: 64, color: const Color(0xFFB8D8C1)),
+              const Icon(Icons.lock, size: 64, color: Color(0xFFB8D8C1)),
               const SizedBox(height: 24),
               Text(
                 _isFirstTime ? 'Set New Password' : 'Enter App Password',

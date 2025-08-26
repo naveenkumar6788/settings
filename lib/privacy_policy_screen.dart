@@ -19,7 +19,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
             Text(
               "1. Introduction",
               style: TextStyle(
-                color: const Color(0xFFB8D8C1),
+                color: Color(0xFFB8D8C1),
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
@@ -34,7 +34,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
             Text(
               "2. Information We Collect",
               style: TextStyle(
-                color: const Color(0xFFB8D8C1),
+                color: Color(0xFFB8D8C1),
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
@@ -51,7 +51,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
             Text(
               "3. How We Use Your Data",
               style: TextStyle(
-                color: const Color(0xFFB8D8C1),
+                color: Color(0xFFB8D8C1),
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
@@ -69,7 +69,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
             Text(
               "4. Data Sharing",
               style: TextStyle(
-                color: const Color(0xFFB8D8C1),
+                color: Color(0xFFB8D8C1),
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
@@ -84,7 +84,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
             Text(
               "5. Data Security",
               style: TextStyle(
-                color: const Color(0xFFB8D8C1),
+                color: Color(0xFFB8D8C1),
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
@@ -99,7 +99,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
             Text(
               "6. Your Rights",
               style: TextStyle(
-                color: const Color(0xFFB8D8C1),
+                color: Color(0xFFB8D8C1),
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
@@ -114,7 +114,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
             Text(
               "7. Changes to This Policy",
               style: TextStyle(
-                color: const Color(0xFFB8D8C1),
+                color: Color(0xFFB8D8C1),
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),

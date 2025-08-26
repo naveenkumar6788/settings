@@ -20,7 +20,7 @@ class _ReportIssueScreenState extends State<ReportIssueScreen> {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
           content: Text('Thank you for reporting the issue!'),
-          backgroundColor: const Color(0xFFB8D8C1),
+          backgroundColor: Color(0xFFB8D8C1),
         ),
       );
 
@@ -73,7 +73,6 @@ class _ReportIssueScreenState extends State<ReportIssueScreen> {
               const SizedBox(height: 20),
               ElevatedButton(
                 onPressed: _submitIssue,
-                child: const Text("Submit"),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: const Color(0xFFB8D8C1),
                   padding: const EdgeInsets.symmetric(
@@ -84,6 +83,7 @@ class _ReportIssueScreenState extends State<ReportIssueScreen> {
                     borderRadius: BorderRadius.circular(12),
                   ),
                 ),
+                child: const Text("Submit"),
               ),
             ],
           ),

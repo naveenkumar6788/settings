@@ -55,7 +55,7 @@ class _AppVersionScreenState extends State<AppVersionScreen> {
               TextButton(
                 child: const Text(
                   "Close",
-                  style: TextStyle(color: const Color(0xFFB8D8C1)),
+                  style: TextStyle(color: Color(0xFFB8D8C1)),
                 ),
                 onPressed: () => Navigator.pop(context),
               ),
@@ -83,7 +83,7 @@ class _AppVersionScreenState extends State<AppVersionScreen> {
               TextButton(
                 child: const Text(
                   "OK",
-                  style: TextStyle(color: const Color(0xFFB8D8C1)),
+                  style: TextStyle(color: Color(0xFFB8D8C1)),
                 ),
                 onPressed: () => Navigator.pop(context),
               ),
@@ -109,7 +109,7 @@ class _AppVersionScreenState extends State<AppVersionScreen> {
               onLongPress: _copyVersionInfo,
               child: Row(
                 children: [
-                  const Icon(Icons.info, color: const Color(0xFFB8D8C1)),
+                  const Icon(Icons.info, color: Color(0xFFB8D8C1)),
                   const SizedBox(width: 10),
                   Text(
                     "Version: $version+$buildNumber",

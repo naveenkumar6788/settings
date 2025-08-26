@@ -123,7 +123,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
       child: Text(
         title,
         style: const TextStyle(
-          color: const Color(0xFFB8D8C1),
+          color: Color(0xFFB8D8C1),
           fontWeight: FontWeight.bold,
         ),
       ),

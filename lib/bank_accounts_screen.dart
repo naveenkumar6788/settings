@@ -103,10 +103,9 @@ class _BankAccountsScreenState extends State<BankAccountsScreen> {
                           accounts.add({
                             'holder': _holderController.text,
                             'number':
-                                'XXXXXX' +
-                                _numberController.text.substring(
+                                'XXXXXX${_numberController.text.substring(
                                   _numberController.text.length - 4,
-                                ),
+                                )}',
                             'ifsc': _ifscController.text,
                             'primary': 'false',
                           });
