@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'
 import 'package:settings/AppVersionScreen.dart';
 import 'package:settings/bank_accounts_screen.dart';
 import 'package:settings/biometric_auth_screen.dart';
